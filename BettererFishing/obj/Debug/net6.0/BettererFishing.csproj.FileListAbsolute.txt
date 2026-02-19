@@ -1,0 +1,8 @@
+C:\Users\littl\source\repos\BettererFishing\BettererFishing\bin\Debug\net6.0\BettererFishing.deps.json
+C:\Users\littl\source\repos\BettererFishing\BettererFishing\bin\Debug\net6.0\BettererFishing.dll
+C:\Users\littl\source\repos\BettererFishing\BettererFishing\obj\Debug\net6.0\BettererFishing.csproj.AssemblyReference.cache
+C:\Users\littl\source\repos\BettererFishing\BettererFishing\obj\Debug\net6.0\BettererFishing.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\littl\source\repos\BettererFishing\BettererFishing\obj\Debug\net6.0\BettererFishing.AssemblyInfoInputs.cache
+C:\Users\littl\source\repos\BettererFishing\BettererFishing\obj\Debug\net6.0\BettererFishing.AssemblyInfo.cs
+C:\Users\littl\source\repos\BettererFishing\BettererFishing\obj\Debug\net6.0\BettererFishing.csproj.CoreCompileInputs.cache
+C:\Users\littl\source\repos\BettererFishing\BettererFishing\obj\Debug\net6.0\BettererFishing.dll
