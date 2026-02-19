@@ -1,0 +1,10 @@
+{
+  "Name": "Betterer Fishing",
+  "Author": "CB",
+  "Version": "0.0.1",
+  "Description": "An attempt to fix Better Fishing for 1.6",
+  "UniqueID": "CB.BettererFishing",
+  "EntryDll": "BettererFishing.dll",
+  "MinimumApiVersion": "4.0.0",
+  "UpdateKeys": []
+}
