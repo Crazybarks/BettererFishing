@@ -1,7 +1,7 @@
 {
   "Name": "Betterer Fishing",
   "Author": "CB",
-  "Version": "0.0.1",
+  "Version": "0.0.2",
   "Description": "An attempt to fix Better Fishing for 1.6",
   "UniqueID": "CB.BettererFishing",
   "EntryDll": "BettererFishing.dll",
