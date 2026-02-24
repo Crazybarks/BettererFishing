@@ -43,71 +43,71 @@ namespace BetterFishing
                 );
             configMenu.AddBoolOption(
                 mod: ModManifest,
-                name: () => "Enable Better Fishing Mod",
-                tooltip: () => "Enables the mod itself",
+                name: () => Helper.Translation.Get("EnableBetterFishingMod"),
+                tooltip: () => Helper.Translation.Get("EBFM_TT"),
                 getValue: () => modConfig.EnableBetterFishingMod,
                 setValue: value => modConfig.EnableBetterFishingMod = value
                  );
             configMenu.AddBoolOption(
                 mod: ModManifest,
-                name: () => "Unbreakable Tackle",
-                tooltip: () => "Your tackle won't break anymore",
+                name: () => Helper.Translation.Get("UnbreakableTackle"),
+                tooltip: () => Helper.Translation.Get("UT_TT"),
                 getValue: () => modConfig.UnbreakableTackle,
                 setValue: value => modConfig.UnbreakableTackle = value
                  );
             configMenu.AddBoolOption(
                 mod: ModManifest,
-                name: () => "Skip Minigame",
-                tooltip: () => "Skips the minigame entirely for time saving",
+                name: () => Helper.Translation.Get("SkipMinigame"),
+                tooltip: () => Helper.Translation.Get("SMG_TT"),
                 getValue: () => modConfig.SkipMiniGame,
                 setValue: value => modConfig.SkipMiniGame = value
                  );
             configMenu.AddBoolOption(
                 mod: ModManifest,
-                name: () => "Skip Minigame Of Legendary Fish",
-                tooltip: () => "Skips the minigame entirely for legendary fish",
+                name: () => Helper.Translation.Get("SkipMinigameOfLegendaryFish"),
+                tooltip: () => Helper.Translation.Get("SMGOLF_TT"),
                 getValue: () => modConfig.SkipMiniGameOfLegendaryFish,
                 setValue: value => modConfig.SkipMiniGameOfLegendaryFish = value
                  );
             configMenu.AddBoolOption(
                 mod: ModManifest,
-                name: () => "Junk Does Not Reduce Bait",
-                tooltip: () => "Catching junk items won't reduce bait",
+                name: () => Helper.Translation.Get("JunkDoesNotReduceBait"),
+                tooltip: () => Helper.Translation.Get("JDNRB_TT"),
                 getValue: () => modConfig.JunkDoesNotReduceBait,
                 setValue: value => modConfig.JunkDoesNotReduceBait = value
                  );
             configMenu.AddBoolOption(
                 mod: ModManifest,
-                name: () => "Auto Reel In Fish",
-                tooltip: () => "Whether fish will be automatically hooked",
+                name: () => Helper.Translation.Get("AutoReelInFish"),
+                tooltip: () => Helper.Translation.Get("ARIF_TT"),
                 getValue: () => modConfig.AutoReelInFish,
                 setValue: value => modConfig.AutoReelInFish = value
                  );
             configMenu.AddBoolOption(
                 mod: ModManifest,
-                name: () => "Auto Obtain Treasure Chest",
-                tooltip: () => "Grab treasures automatically",
+                name: () => Helper.Translation.Get("AutoObtainTreasureChest"),
+                tooltip: () => Helper.Translation.Get("AOTC_TT"),
                 getValue: () => modConfig.AutoObtainTreasureChest,
                 setValue: value => modConfig.AutoObtainTreasureChest = value
                  );
             configMenu.AddBoolOption(
                 mod: ModManifest,
-                name: () => "Auto Grab Treasure Loot",
-                tooltip: () => "Put treasures into inventory without a prompt",
+                name: () => Helper.Translation.Get("AutoGrabTreasureLoot"),
+                tooltip: () => Helper.Translation.Get("AGTL_TT"),
                 getValue: () => modConfig.AutoGrabTreasureLoot,
                 setValue: value => modConfig.AutoGrabTreasureLoot = value
                  );
             configMenu.AddBoolOption(
                 mod: ModManifest,
-                name: () => "Always Cast Max Distance",
-                tooltip: () => "Whether to always cast at your max distance",
+                name: () => Helper.Translation.Get("AlwaysCastMaxDistance"),
+                tooltip: () => Helper.Translation.Get("ACMD_TT"),
                 getValue: () => modConfig.AlwaysCastMaxDistance,
                 setValue: value => modConfig.AlwaysCastMaxDistance = value
                  );
             configMenu.AddBoolOption(
                 mod: ModManifest,
-                name: () => "Always Perfect",
-                tooltip: () => "Whether to always catch fish with perfect accuracy",
+                name: () => Helper.Translation.Get("AlwaysPerfect"),
+                tooltip: () => Helper.Translation.Get("AP_TT"),
                 getValue: () => modConfig.AlwaysPerfect,
                 setValue: value => modConfig.AlwaysPerfect = value
                  );
