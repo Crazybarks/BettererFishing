@@ -11,7 +11,7 @@
     public bool AlwaysCastMaxDistance { get; set; } = false;
 
     public bool AlwaysPerfect { get; set; } = false;
-    public int ReactionTime = 300;
+    //public int ReactionTime = 300; //(old delay for reeling)
     public int[] MotionTyprFactor = { 5, 20, -5, 10, 10 };
     public bool IfPerfect(float difficulty, int bobberBarHeight, int motionType)
     {

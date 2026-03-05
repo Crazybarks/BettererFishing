@@ -6,7 +6,7 @@ using StardewValley.Menus;
 using StardewValley.Tools;
 using GenericModConfigMenu;
 
-namespace BetterFishing
+namespace BettererFishing
 {
     
     public class ModEntry : Mod
@@ -113,7 +113,7 @@ namespace BetterFishing
                  );
         }
 
-        private async void AutoReelInFish(object sender, UpdateTickedEventArgs e)
+        private void AutoReelInFish(object sender, UpdateTickedEventArgs e)
         {
             if (!Context.IsWorldReady) return;
             if (!(modConfig.EnableBetterFishingMod && modConfig.AutoReelInFish)) return;
@@ -121,7 +121,6 @@ namespace BetterFishing
             FishingRod fishingRod = (FishingRod)(Game1.player.CurrentTool is FishingRod ? Game1.player.CurrentTool : null);
             if (fishingRod != null && Game1.player.UsingTool && fishingRod.isFishing && fishingRod.isNibbling)
             {
-                await Task.Delay(modConfig.ReactionTime);
                 Game1.player.EndUsingTool();
             }
         }
